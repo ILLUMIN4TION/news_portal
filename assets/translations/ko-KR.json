@@ -1,0 +1,12 @@
+{
+  "login": {
+    "welcome": "어서오세요",
+    "login": "로그인",
+    "orUse": "또는",
+    "signWith": "{sso}로 로그인"
+  },
+  "newsList": {
+    "hotTopic": "뜨거운 주제",
+    "lastestNews": "최신 뉴스"
+  }
+}
