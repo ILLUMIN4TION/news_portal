@@ -1,6 +1,8 @@
 {
   "login": {
     "welcome": "Welcome",
+    "email": "Email",
+    "password": "Password",
     "login": "Login",
     "orUse": "Or use",
     "signWith": "Sign in with {sso}"

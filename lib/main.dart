@@ -27,6 +27,21 @@ class MyApp extends StatelessWidget {
       routerConfig: appRouter,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Color(0xff1554f6),
+            foregroundColor: Colors.white,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(5),
+            ),
+          ),
+        ),
+        outlinedButtonTheme: OutlinedButtonThemeData(
+          style: OutlinedButton.styleFrom(
+            foregroundColor: Colors.black,
+            shape: RoundedRectangleBorder(side: BorderSide(color: Colors.grey)),
+          ),
+        ),
       ),
       locale: context.locale,
       supportedLocales: context.supportedLocales,
