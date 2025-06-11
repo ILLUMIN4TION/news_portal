@@ -15,6 +15,7 @@ dependencies:
   ###### Assets
   cupertino_icons: ^1.0.8
   lucide_icons_flutter: ^3.0.2
+  google_fonts: ^6.2.1
 
   ###### Core
 
@@ -24,6 +25,7 @@ dependencies:
   provider: ^6.1.5
   easy_localization: ^3.0.7+1
   go_router: ^15.1.1
+  http:
 
 dev_dependencies:
   flutter_test:
